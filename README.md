@@ -2,7 +2,7 @@
 
 The goal of this project is to take test results in the form text with the following format
 
-`testStarted id="1" duration="100" result=OK`
+`testStarted id="1" name = "test1"`
 
 `testFinished id="1" duration="100" result=FAIL error="Error Message"`
 

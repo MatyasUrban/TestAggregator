@@ -27,7 +27,7 @@ class TestResults {
      */
     private Object[] aggregateTestResults(String fileContent) {
         // Regex to match velid test result lines
-        // startPattern example: testStarted id="1" name="test1"
+        // startPattern example: testStarted id="1" name = "test1"
         // finishPattern example 1: testFinished id="1" duration="100" result=OK
         // finishPattern example 2: testFinished id="1" duration="100" result=FAIL
         // finishPattern example 3: testFinished id="1" duration="100" result=FAIL error="Error Message"
