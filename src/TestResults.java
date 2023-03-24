@@ -141,8 +141,8 @@ class TestResults {
                 + "Number of failed tests: " + failedTests + "\n"
                 + "Number of failed tests with errors: " + testsWithError + "\n"
                 + "Pass rate: " + String.format("%.2f", passRate*100) + "%\n"
-                + "Average test duration: " + String.format("%.2f", avgDuration) + " ms\n"
-                + "Total duration of running all tests: " + String.format("%.2f", totalDuration) + " ms\n"
+                + "Average test execution time: " + String.format("%.2f", avgDuration) + " ms\n"
+                + "Total execution time: " + String.format("%.2f", totalDuration) + " ms\n"
                 + "Number of omitted lines: " + omittedLines;
 
         return new Object[]{result, passRate};
