@@ -1,12 +1,12 @@
 # Test Aggregator
 
-The goal of this project is to take test results in the form text with the following format
+The goal of this project is to take text (you may input your standart output) and this tool will identify lines with the following format:
 
 `testStarted id="1" name = "test1"`
 
 `testFinished id="1" duration="100" result=FAIL error="Error Message"`
 
-And produce a report on the aggregated tests. Example report:
+and produce a report on the aggregated tests. Example report:
 
 ![](readme-pictures/report.png)
 
