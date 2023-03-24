@@ -41,8 +41,6 @@ class TestResults {
         // but we can do this in O(1) thanks to the properties of a hashmap
         HashMap<String, ArrayList<String>> testInfoMap = new HashMap<>();
         int omittedLines = 0;
-        int startedLines = 0;
-        int finishedLines = 0;
         // get individual lines from input for the analysis
         String[] lines = fileContent.split(System.lineSeparator());
         // iterate over the lines
