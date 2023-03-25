@@ -42,7 +42,7 @@ class TestResults {
         HashMap<String, ArrayList<String>> testInfoMap = new HashMap<>();
         int omittedLines = 0;
         // get individual lines from input for the analysis
-        String[] lines = fileContent.split(System.lineSeparator());
+        String[] lines = fileContent.split("\\r?\\n");
         // iterate over the lines
         for (String line : lines) {
             Matcher startMatcher = startPattern.matcher(line);
